@@ -1,0 +1,111 @@
+.neumorphism {
+    background: #ebeef1;
+    box-shadow: 4px 4px 10px #0a63a929,
+        -4px -4px 10px #ffffffb3;
+    border-radius: 1rem;
+}
+
+body .neumorphism-btn {
+    background: #ebeef1;
+    box-shadow: 4px 4px 10px #0a63a929,
+        -4px -4px 10px #ffffffb3,
+        inset -2px -2px 4px #ffffffb3, inset 2px 2px 4px #0a63a929;
+    border-radius: 10px;
+}
+
+.neumorphism-btn:hover {
+    background: #ebeef1;
+    box-shadow: 4px 4px 10px #0a63a929,
+        -4px -4px 10px #ffffffb3;
+    border-radius: 10px;
+}
+
+body .neumorphism-input {
+    background: #ebeef1;
+    box-shadow: 4px 4px 10px #0a63a929,
+        -4px -4px 10px #ffffffb3,
+        inset -2px -2px 4px #ffffffb3, inset 2px 2px 4px #0a63a929;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3b4252;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e5ec;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a3b1c6;
+    border-radius: 10px;
+}
+
+body.dark {
+    background-color: #242424;
+    color: #cbd5e1;
+}
+
+body.dark nav.neumorphism {
+    background-color: #242424;
+    box-shadow: 4px 4px 10px #000,
+        -4px -4px 10px #353535;
+}
+
+body.dark .neumorphism {
+    background: #242424;
+    box-shadow: 4px 4px 10px #000,
+        -4px -4px 10px #353535;
+    color: #cbd5e1;
+}
+
+body.dark .neumorphism-btn {
+    background: #242424;
+    box-shadow: 4px 4px 10px #000,
+        -4px -4px 10px #353535,
+        inset -2px -2px 4px #353535, inset 2px 2px 4px #000;
+    color: #cbd5e1;
+}
+
+body.dark .neumorphism-btn:hover {
+    background: #242424;
+    box-shadow: 4px 4px 10px #000,
+        -4px -4px 10px #353535;
+    color: #cbd5e1;
+}
+
+body.dark .neumorphism-input {
+    background: #242424;
+    box-shadow: 4px 4px 10px #000,
+        -4px -4px 10px #353535,
+        inset -2px -2px 4px #353535, inset 2px 2px 4px #000;
+    color: #cbd5e1;
+}
+
+body.dark .section-title {
+    color: #63b3ed;
+}
+
+body.dark a {
+    color: #90cdf4;
+}
+
+body.dark a:hover {
+    color: #63b3ed;
+}
+
+body.dark ::-webkit-scrollbar-track {
+    background: #2d3748;
+}
+
+body.dark ::-webkit-scrollbar-thumb {
+    background: #4a5568;
+}
